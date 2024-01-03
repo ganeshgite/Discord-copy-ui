@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+
+}
+:root {
+    --brand: #5865f2;
+    --brand-gradient: linear-gradient(90deg,#8ea1e1,#7289da);
+    --greyple: #99aab5;
+    --dark-not-black: #2c2f33;
+    --focus-border: #00b0f4;
+    --status-green: #43b581;
+    --text-link: #00b0f4;
+    --off-white: #f6f6f6;
+    --white: #fff;
+}
+body{
+      background-color:var(--brand);
+      background-image:url("a1.svg");
+      background-size:100% 100%;
+      background-repeat:repeat;
+
+}
+.container{
+    height:840px;
+    width:100vw;
+    background-image:url("a2.svg"), url("a3.svg");
+    background-size:700px ,  600px;
+    background-position:750px 230px, -210px 200px;
+    background-repeat:no-repeat;
+
+}
+.nav{
+    height:60px;
+    width:100vw;
+    background-color:;
+    text-align: center;
+    display:inline-block;
+
+}
+.nav h1{
+    float:left;
+    margin:20px 520px 0px 60px;
+    color:white;
+    font-size:20px;
+    font-weight:800;
+
+}
+.nav p{
+    float:left;
+    color:white;
+    font-size:13px;
+    margin:20px 40px 0px 0px;
+    transition:all 10s ease-in-out;
+    font-weight:800;
+}
+.nav p:hover{
+     text-decoration: underline;
+    
+}
+.nav button{
+    float:left;
+    color:black;
+    background-color:white;
+    font-size:15px;
+    margin:14px 10px 0px 70px;
+    
+    height:30px;
+    width:80px;
+    border-radius:30px;
+    border:none;
+    outline:none;
+    
+}
+.box{
+    margin:50px 0px 0px 150px;
+    background-color:;
+    height:300px;
+    width:1000px;
+    padding:20px;
+    text-align:center;
+
+}
+.box h1{
+    color:white;
+    font-size:50px;
+    font-weight:900;
+    margin-bottom:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.box p{
+    color:white;
+    font-size:16px;
+  
+    margin-bottom:20px;
+}
+.box button:nth-child(n){
+    color:black;
+    margin-bottom:0px;
+    background-color:white;
+    border:none;
+    border-radius:20px;
+    height:40px;
+    width:220px;
+
+
+}
+.box .btn{
+    color:white;
+    margin-bottom:0px;
+    background-color:black;
+    border:none;
+    border-radius:20px;
+    height:40px;
+    width:220px;
+
+}
